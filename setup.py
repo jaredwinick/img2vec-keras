@@ -1,0 +1,15 @@
+from setuptools import setup
+
+setup(name='img2vec-keras',
+      version='0.1',
+      description='Image to dense vector embedding',
+      url='https://github.com/jaredwinick/img2vec-keras',
+      author='Jared Winick',
+      author_email='jaredwinick@gmail.com',
+      license='Apache License 2.0',
+      packages=['img2vec-keras'],
+      zip_safe=False,
+      install_requires=[
+          'numpy>=1.9.1',
+          'keras>=2.0.0'
+      ])

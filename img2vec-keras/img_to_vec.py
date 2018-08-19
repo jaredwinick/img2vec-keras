@@ -28,5 +28,3 @@ class Img2Vec():
         intermediate_output = self.intermediate_layer_model.predict(x)
 
         return intermediate_output[0][0][0]
-
-
