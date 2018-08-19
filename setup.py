@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='img2vec-keras',
+setup(name='img2vec_keras',
       version='0.1',
       description='Image to dense vector embedding',
       url='https://github.com/jaredwinick/img2vec-keras',
