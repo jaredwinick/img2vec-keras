@@ -11,5 +11,6 @@ setup(name='img2vec_keras',
       zip_safe=False,
       install_requires=[
           'numpy>=1.9.1',
-          'keras>=2.0.0'
+          'keras>=2.0.0',
+          'pillow'
       ])
