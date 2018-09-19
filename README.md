@@ -1,5 +1,5 @@
 # img2vec-keras
-Image to dense vector embedding. This library uses the ResNet50 model in Keras, pre-trained on Imagenet, to generate image embeddings. Basically a clone of https://github.com/christiansafka/img2vec for Keras users. 
+Image to dense vector embedding. This library uses the ResNet50 model in Keras, pre-trained on Imagenet, to generate image embeddings via https://keras.io/getting-started/faq/#how-can-i-obtain-the-output-of-an-intermediate-layer. Basically a clone of https://github.com/christiansafka/img2vec for Keras users. 
 
 # Install
 First you need a Keras backend installed. I have only tested with TensorFlow. Then,
