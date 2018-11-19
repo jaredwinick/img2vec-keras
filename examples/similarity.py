@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append("..")  # Adds higher directory to python modules path.
 
-from img_to_vec import Img2Vec
+from img2vec_keras import Img2Vec
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
