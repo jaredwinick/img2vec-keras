@@ -26,5 +26,5 @@ class Img2Vec():
         x = np.expand_dims(x, axis=0)
         x = preprocess_input(x)
         intermediate_output = self.intermediate_layer_model.predict(x)
-
-        return intermediate_output[0][0][0]
+        
+        return intermediate_output[0]
