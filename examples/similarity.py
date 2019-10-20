@@ -1,5 +1,4 @@
 import sys
-import os
 sys.path.append("..")  # Adds higher directory to python modules path.
 
 from img2vec_keras import Img2Vec
